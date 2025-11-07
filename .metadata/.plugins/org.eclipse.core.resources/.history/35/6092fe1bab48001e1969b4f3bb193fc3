@@ -1,0 +1,115 @@
+package object_repository;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+import utils.DriverFactory;
+
+public class ObjectsReporsitory extends DriverFactory {
+
+
+	@FindBy(how = How.XPATH, using = "//android.widget.EditText[@resource-id='i0116']")
+	public static WebElement Signin_Email;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@resource-id='idSIButton9']")
+	public static WebElement Signin_NextBtn;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.EditText[@resource-id='i0118']")
+	public static WebElement Signin_Password;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@resource-id='idSIButton9']")
+	public static WebElement Signin_SigninBtn;
+
+	@FindBy(how = How.XPATH, using = "//android.webkit.WebView[@index='2']")
+	public static WebElement Signin_StaySignin_yes;
+
+	@FindBy(how = How.XPATH, using = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]")
+	public static WebElement Signin_Verify_Name;
+
+	@FindBy(how = How.XPATH, using = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]")
+	public static WebElement Signin_Verify_Email;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.EditText[@index='2']")
+	public static WebElement Signin_pin;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.EditText[@index='3']")
+	public static WebElement Signin_Confirm_pin;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='Register Device']")
+	public static WebElement Signin_Register_device;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='OK']")
+	public static WebElement Signin_Register_device_confirm;
+
+	@FindBy(how = How.XPATH, using = "//android.view.View[@content-desc='Enter Device PIN to Login']")
+	public static WebElement Login_Pin;
+
+	@FindBy(how = How.XPATH, using = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[1]/android.widget.Button")
+	public static WebElement Home_Menu;
+
+	@FindBy(how = How.XPATH, using = "//android.view.View[@content-desc='Home']")
+	public static WebElement Home_Menu_Home;
+
+	@FindBy(how = How.XPATH, using = "//android.view.View[@content-desc='Logout']")
+	public static WebElement Home_Menu_Logout;
+
+	@FindBy(how = How.XPATH, using = "//android.view.View[@content-desc='Exit']")
+	public static WebElement Home_Menu_Exit;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.ImageView[@content-desc='MyBench']")
+	public static WebElement Home_MyBench;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.ImageView[@content-desc='EIP 4.0']")
+	public static WebElement Home_EIP40;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.ImageView[@content-desc='Trace Doc']")
+	public static WebElement Home_TraceDoc;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.ImageView[@content-desc='Car Pool']")
+	public static WebElement Home_CarPool;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.ImageView[@content-desc='MyZone']")
+	public static WebElement Home_MyZone;
+
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='OK']")
+	public static WebElement Home_Menu_Logout_Confirm;
+	
+	@FindBy(how = How.XPATH, using = "//android.widget.ImageView[contains(@content-desc,\"I Owe You\")]")
+	public static WebElement ICU;
+	
+	@FindBy(how = How.ID, using = "00000000-0000-0067-0000-008200000004")
+	public static WebElement selected;
+	
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='Approve']")
+	public static WebElement Approve;
+	
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='Reject']")
+	public static WebElement Reject;
+	
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='Yes']")
+	public static WebElement Popup_Yes;
+	
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='NO']")
+	public static WebElement Popup_No;
+	
+	@FindBy(how = How.XPATH, using = "//android.view.View[@content-desc='Confirmation']")
+	public static WebElement Popup_Header;
+	
+	@FindBy(how = How.ID, using = "00000000-0000-0067-0000-009400000004")
+	public static WebElement Popup_Details;
+	
+	@FindBy(how = How.XPATH, using = "//android.widget.Button[@content-desc='OK']")
+	public static WebElement Popup_ok;
+	
+	@FindBy(how = How.XPATH, using = "//android.view.View[@content-desc='Success']")
+	public static WebElement Alert_Success;
+	
+	@FindBy(how = How.ID, using = "00000000-0000-0067-0000-00ac00000004")
+	public static WebElement Alert_Details;
+	
+	@FindBy(how = How.XPATH, using = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[1]/android.widget.Button[1]")
+	public static WebElement Close;
+
+
+}
